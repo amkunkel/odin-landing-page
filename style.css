@@ -1,5 +1,92 @@
-.title {
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.footer {
+    height: 72px;
+    background: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header {
+    font-size: 24px;
     font-weight: 900;
-    text-align: center;
-    margin: 50px;
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: normal;
+ 
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.footer {
+    flex-direction: column-reverse;
+}
+
+
+.title-container {
+    background: #1F2937;
+    display: flex;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.title-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.title-button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+.second-title {
+    display: flex;
+}
+    
+.quote-box {
+    display: flex;
+    background: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937
+}
+
+.call-container {
+    display: flex;
+    background: #3882F6;
+    width: 480px;
+    border-radius: 10px;
 }
