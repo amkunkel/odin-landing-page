@@ -56,6 +56,7 @@ a {
 .title-container {
     background: #1F2937;
     display: flex;
+    padding: 3em;
 }
 
 .title {
@@ -75,13 +76,30 @@ a {
 }
 
 .second-title {
+    text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 3em;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    align-items: flex-end;
+    border: 2px solid #3882F6;
+    border-radius: 4px;
+
+    gap: 20px;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+
 }
     
 .quote-box {
     display: flex;
     background: #E5E7EB;
+    padding: 3em;
 }
 
 .quote {
@@ -95,4 +113,6 @@ a {
     background: #3882F6;
     width: 480px;
     border-radius: 10px;
+    margin: 3em;
+    padding: 3em;
 }
