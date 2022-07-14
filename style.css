@@ -12,6 +12,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 100px;
+    height: 25px;
+}
+
 .container {
     flex: 1;
     display: flex;
@@ -24,6 +33,7 @@ body {
     background: #1F2937;
     color: #F9FAF8;
     display: flex;
+    flex-shrink: 0;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -56,7 +66,17 @@ a {
 .title-container {
     background: #1F2937;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     padding: 3em;
+}
+
+.text-window {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+    width: 450px;
+    
 }
 
 .title {
@@ -72,7 +92,14 @@ a {
 
 .title-button {
     background-color: #3882F6;
+    border: 1px #3882F6;
     color: #E5E7EB;
+    
+}
+
+.mountain {
+    height: auto;
+    width: 400px;
 }
 
 .second-title {
@@ -110,6 +137,7 @@ a {
 
 .call-container {
     display: flex;
+    flex-direction: column;
     background: #3882F6;
     width: 480px;
     border-radius: 10px;
