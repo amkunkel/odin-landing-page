@@ -78,7 +78,6 @@ a {
     display: flex;
     flex-direction: column;
     gap: 10px;
-
     width: 450px;
     
 }
@@ -157,14 +156,25 @@ a {
     
 .quote-box {
     display: flex;
+    flex-direction: column;
     background: #E5E7EB;
+    padding: 100px 200px;
 
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
-    color: #1F2937
+    color: #1F2937;
+    text-align: left;
+}
+
+.attribution {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: right;
+
 }
 
 .call-container {
