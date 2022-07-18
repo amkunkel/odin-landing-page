@@ -158,6 +158,7 @@ a {
     display: flex;
     flex-direction: column;
     background: #E5E7EB;
+    gap: 10px;
     padding: 100px 200px;
 
 }
@@ -179,13 +180,17 @@ a {
 
 .call-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
    
     background: #3882F6;
- 
     border-radius: 10px;
+
+    gap: 10px;
     margin: 200px;
+    padding: 50px;
+    width: 400px;
 
 }
 
@@ -193,6 +198,8 @@ a {
 .call {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    
     
 }
 
@@ -205,9 +212,8 @@ a {
 }
 
 .call-button {
-    display: flex;
 
     background-color: #3882F6;
-    border: 2px #F9FAF8;
+    border: 2px solid #F9FAF8;
     color: #F9FAF8;
 }
